@@ -16,7 +16,7 @@ def add_book():
     print(f"{title} had been added to the books database successfully.")
 
 
-# borrow book and  book are not finished - come back to them.
+
 def borrow_book():
     title = input("Enter the title of the book you would like to borrow: ")
     if title in books:
